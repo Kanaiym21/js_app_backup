@@ -4,15 +4,15 @@ main::before {
 }
 
 main {
-  margin: 100px auto;
+  margin: 150px auto;
   position:relative;
   padding: 10px 5px;
   background: hsla(0,0%,100%,.3);
   font-size: 20px;
   font-family: 'Lora', serif;
-  line-height: 1.5;
+  line-height: 1.2;
   border-radius: 10px;
-  width: 35%;
+  width: 30%;
   box-shadow: 5px 3px 30px black;
   overflow: hidden;
 }
@@ -20,7 +20,7 @@ main {
 main::before {
   content: '';
   margin: -35px;
-  position: absolute;
+  position:absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -29,7 +29,17 @@ main::before {
   z-index: -1;
 }
 
+figcaption{
+  text-align: center;
+}
 
+.inputs {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 30px;
+}
 
 #select {
   padding: 0.5rem;
@@ -40,12 +50,12 @@ main::before {
 }
 blockquote {
   font-style: italic;
+  text-align: center;
 }
 
 footer {
-  text-align: center;
-  margin-bottom: 0em;
-  padding: 0 1em;
+  text-align:center;
+  padding: 90px 0px 0px 0px;
   color: white;
 }
 
