@@ -29,6 +29,13 @@ main::before {
   z-index: -1;
 }
 
+#select {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #E7D37D;
+  list-style: none;
+}
 blockquote {
   font-style: italic;
 }
